@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: rgb(14, 119, 119);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+<body>
+    <div class = 'side-bar'>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Resume</a></li>
+            <li><a class="active" href="projects.html">Projects</a></li>
+            <li><a href="about.html">About me</a></li>
+          </ul>
+    </div>
+
+    <div class = 'project1'>
+        <h2> Arctic Ice Cap Website </h2>
+        <a href="https://ivanthecoder1.github.io/Guide-to-saving-the-Arctic/"> 
+          <img src="pictures/arctic.PNG" alt="Artic">
+        </a>
+        <p> In this project, my team and I developed a website and game with JavaScript + HTML/CSS with the purpose of raising awareness about climate change, specifically the melting of the Arctic Ice Caps. The website provides a summary, resources, and an educational game to users wanting to learn more climate change.</p>
+        
+
+        <h2> Messaging App</h2>
+        <a href="https://ivanthecoder1.github.io/message-app/"> 
+          <img src="pictures/message.PNG" alt="message">
+        </a>
+        <p> Using fire databases and Javascript, I developed a chatroom that displays permanent messages.</p>
+
+        <h2> Would you rather?</h2>
+        <a href="https://ivanthecoder1.github.io/p5-project/"> 
+          <img src="pictures/wouldyou.PNG" alt="would">
+        </a>
+        <p> Using Javascript and the P5 library, I created a simple "Would you Rather?" game. 
+          The objective of the game is to score points by getting in the majority of the question answers. </p>
+
+
+    </div>
+
+</body>
+</html>

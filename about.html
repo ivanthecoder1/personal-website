@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: rgb(14, 119, 119);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+<body>
+    <div class = 'side-bar'>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="skills.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="active" href="about.html">About me</a></li>
+          </ul>
+    </div>
+
+    <div class = 'about-box'>
+        <h2> About me </h2>
+        <h3> Some of my hobbies include...</h3>
+        <p> Watching anime, gaming, weightlifting, parkour, night walks, and the outdoors.</p>        
+        <h3> Who am I as a person?</h3>
+        <p> To new people, I may come off as reserved and quiet, but if you get to know me, I can be pretty goofy and energtic.</p>
+        <h3> Why do you program? </h3>
+        <p> Programming is like the closest thing to a superpower. We can program robots, virtual reality, immersive video games, and so much more. Who wouldn't want to get involved and help program stuff like this?</p>
+    </div>
+
+</body>
+</html>
